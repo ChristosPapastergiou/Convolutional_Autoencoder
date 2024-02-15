@@ -2,13 +2,12 @@
 
 Implementation of a convolutional autoencoder to encode/decode images from mnist dataset with high fidelity.
 
-The Convolutional Autoencoder is a Neural Network and it is using the mnist dataset to encode the images to lower dimensions.
-The saved model of the Neural Network is been used to finally export the files with the lower dimension images of the mnist dataset.
+The Convolutional Autoencoder is a Neural Network and it is using the Mnist dataset to encode the images to lower dimensions.
+The saved model of the Neural Network is been used by the **reduce.py** to finally export the files with the lower dimension images of the Mnist dataset.
 Τhis technique is helpful because if someone wants to use this dataset in some applications such as classification or clustering it can reduce the running time of the program to a great extent.
 
 --------------------------------
 How to compile and run
---------------------------------
 
     compile & run : py file_name
     filename : NeuralNetwork.py, reduce.py
