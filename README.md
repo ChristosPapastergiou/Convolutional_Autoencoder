@@ -7,6 +7,9 @@ The saved model of the Neural Network is been used by the **reduce.py** to final
 Τhis technique is helpful because if someone wants to use this dataset in some applications such as classification or clustering it can reduce the running time of the program to a great extent.
 
 # Compilation & Running
+
+To reduce the dimension of the images you must first run the Neural Network and then the reduction.
+
     compile & run : py file_name
     filename : NeuralNetwork.py, reduce.py
 
