@@ -6,9 +6,7 @@ The Convolutional Autoencoder is a Neural Network and it is using the Mnist data
 The saved model of the Neural Network is been used by the **reduce.py** to finally export the files with the lower dimension images of the Mnist dataset.
 Τhis technique is helpful because if someone wants to use this dataset in some applications such as classification or clustering it can reduce the running time of the program to a great extent.
 
---------------------------------
 How to compile and run
-
     compile & run : py file_name
     filename : NeuralNetwork.py, reduce.py
 
