@@ -8,10 +8,9 @@ The saved model of the Neural Network is been used by the **reduce.py** to final
 
 # Compilation & Running
 
-To reduce the dimension of the images you must first run the Neural Network and then the reduction.
-
-    compile & run : py file_name
-    filename : NeuralNetwork.py, reduce.py
-
-First you run the **NeuralNetwork.py** to produce the model. Then **reduce.py** is coming to the game to use this model that have been saved as **autoencoder.h5**. 
+To reduce the dimension of the images you must first run the **NeuralNetwork.py** to produce the model. 
+When the Neural Network is done the **reduce.py** is coming to the game to use this model that have been saved as **autoencoder.h5**. 
 When **reduce.py** is done, it will have created the files with the images in reduced size. If you want to play with the dimensions just change the **latent_dimension**.
+
+    compile & run (1st) : py NeuralNetwork.py
+    compile & run (2nd) : py reduce.py
