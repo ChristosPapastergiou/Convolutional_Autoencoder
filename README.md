@@ -14,3 +14,5 @@ When **reduce.py** is done, it will have created the files with the images in re
 
     compile & run (1st) : py NeuralNetwork.py
     compile & run (2nd) : py reduce.py
+
+In collaboration with [Dimitriadis Christos](https://github.com/chrisdimCs)
